@@ -1,4 +1,4 @@
-Developing Data Products - Motor Car Trend dataset
+Dev Data Products
 ========================================================
 author: Mohan
 date:  11/09/2014
@@ -47,13 +47,13 @@ summary(mtcars)
 How it works
 ========================================================
 
-?The user select the predictor (x) from the dropdown
+·The user select the predictor (x) from the dropdown
 
-?When the user make a choice, the plot is updated.
+·When the user make a choice, the plot is updated.
 
-?The user can check/uncheck the outlier box  if the outliers are to be considered or not in the plot.
+·The user can check/uncheck the outlier box  if the outliers are to be considered or not in the plot.
 
 Sample Plot 1
 ========================================================
 
-![plot of chunk unnamed-chunk-2](DevDataProd-figure/unnamed-chunk-2-1.png) 
+![plot of chunk unnamed-chunk-2](myDevDataProd-figure/unnamed-chunk-2-1.png) 

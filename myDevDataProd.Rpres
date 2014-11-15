@@ -1,0 +1,35 @@
+Dev Data Products
+========================================================
+author: Mohan
+date:  11/09/2014
+
+My App
+========================================================
+
+This is my reproducible pitch presentation, where I explain what I did in my simple app project.
+ 
+This project just works with "mtcars" dataset and makes boxplot of two variables (Cyclinders vs mpg OR Transmission vs mpg OR Gears vs mpg) which the user choose the predictor and the the outcome is always the "mpg".
+
+Click here to access:  http://lionWar.shinyapps.io/myapp
+
+Summary data
+========================================================
+
+```{r}
+summary(mtcars)
+```
+
+How it works
+========================================================
+
+·The user select the predictor (x) from the dropdown
+
+·When the user make a choice, the plot is updated.
+
+·The user can check/uncheck the outlier box  if the outliers are to be considered or not in the plot.
+
+Sample Plot 1
+========================================================
+
+```{r, echo=FALSE}
+boxplot(mtcars$mpg ~ mtcars$cyl, data = mtcars, col = "lightgray",xlab="Cylinders", ylab="mpg")
